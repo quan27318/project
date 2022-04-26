@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\project\\RookiesTeam3\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
