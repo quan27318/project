@@ -23,7 +23,7 @@ export default function Home() {
         setIsModalVisible(false);
 
         axios
-            .put(`https://rookiesgroup3.azurewebsites.net/api/Assignments/${idCompleted}/accepted`)
+            .put(`${process.env.REACT_APP_UNSPLASH_ASSIGNMENT}/${idCompleted}/accepted`)
             .then((res) => {
 
 
@@ -54,7 +54,7 @@ export default function Home() {
     const handleDeleteOk = () => {
         setIsModalCancelVisible(false);
         axios
-            .put(`https://rookiesgroup3.azurewebsites.net/api/Assignments/${idCompleted}/declined`)
+            .put(`${process.env.REACT_APP_UNSPLASH_ASSIGNMENT}/${idCompleted}/declined`)
             .then((res) => {
                 setIdCompleted(null)
 
