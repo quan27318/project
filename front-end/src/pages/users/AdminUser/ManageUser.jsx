@@ -130,7 +130,7 @@ export default function ManageUser() {
                                         <Button
                                             className="buttonSave"
                                             onClick={() => {
-                                                axios.delete(`https://rookiesgroup3.azurewebsites.net/api/Users?id=${element.id}`).then(
+                                                axios.delete(`${process.env.REACT_APP_UNSPLASH_USERURL}?id=${element.id}`).then(
                                                     () => {
 
                                                         setDeleteModal({ ...deleteModal, isOpen: false })

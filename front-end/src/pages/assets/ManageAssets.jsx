@@ -192,7 +192,7 @@ export default function ManageAssets() {
                                         <Button
                                             className = ' buttonSave'
                                             onClick={() => {
-                                                axios.delete(`https://rookiesgroup3.azurewebsites.net/api/Assets?id=${asset.id}`).then(
+                                                axios.delete(`${process.env.REACT_APP_UNSPLASH_ASSETURL}?id=${asset.id}`).then(
                                                     (response) => {
 
                                                         setDeleteModal({...deleteModal, is: false})
