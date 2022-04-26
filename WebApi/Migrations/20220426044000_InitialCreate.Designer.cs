@@ -12,8 +12,8 @@ using WebApi.Helpers;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220414104212_updateDBver2")]
-    partial class updateDBver2
+    [Migration("20220426044000_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -359,11 +359,11 @@ namespace WebApi.Migrations
                             Firstname = "Ed",
                             Gender = "Male",
                             IsDisabled = false,
-                            IsFirstLogin = false,
+                            IsFirstLogin = true,
                             JoinDate = new DateTime(2021, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Pendlebery",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$0fJjrDhQRGpqP7PyC8Prpud0epb7bzWzucebmovaoIQsQtxG8fkym",
+                            PasswordHash = "$2a$11$lR4IKFjrbwrqXdM/Em9MUervBNTPx1En85Kso44fjvJel2KGUzdIW",
                             StaffCode = "SD0001",
                             Type = 0,
                             Username = "edp"
@@ -381,7 +381,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "O'Loinn",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$iHGGT/BHMG.zxAl2q27iUujxng8yVJw.ExJu56omrVT12yBTLTJMW",
+                            PasswordHash = "$2a$11$dp.sMvR8/cfodlqLB2NdzOYmIqOzFPxJjoEAG0H4Hv0OgPkdNFHuO",
                             StaffCode = "SD0002",
                             Type = 1,
                             Username = "courtneyo"
@@ -399,7 +399,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Renahan",
                             Location = "Hanoi",
-                            PasswordHash = "$2a$11$bcY6ujLeT4XfsJQFksTXq.qs6AxOBnxDHdRO/W5/4M0rBRzaR8yNW",
+                            PasswordHash = "$2a$11$gJ.qk2chdnV5BRETDEuUBuPW.yZ1IUdd.rOFkk4CkIeaOeKOGE/yi",
                             StaffCode = "SD0003",
                             Type = 0,
                             Username = "eudorar"
@@ -417,7 +417,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Hugueville",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$YGJgNfROO8fLz1.8.UEsReh.RZmfE9QD.hmlYjWg8QSu66OH5Byl2",
+                            PasswordHash = "$2a$11$90Hm3y/GIdsxb9HiqRlN4O/l7G4jRXc7JnfdyeuzixL5fewxcWciS",
                             StaffCode = "SD0004",
                             Type = 1,
                             Username = "bevinh"
@@ -435,7 +435,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Broadis",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$GJmqyIWs/l5aeYd3F4YVsOVG58lxMH9pVVKa/M5c4cU8e62iSqd7e",
+                            PasswordHash = "$2a$11$1WH6TFWb3g8pOotNVohs2.727OAax2aPpsbHNb9CDozBmB/BQx8S.",
                             StaffCode = "SD0005",
                             Type = 1,
                             Username = "andrewb"
@@ -453,7 +453,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2022, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Zecchi",
                             Location = "Hanoi",
-                            PasswordHash = "$2a$11$abfPuiJGMbIT3XvQDYmbHuJfYz1vP8PNranLnyt7VwYJzs7bZBXA6",
+                            PasswordHash = "$2a$11$t.xCSseyLryXo71IFT/.QOTZGs2uCoGEnL37PnJPaCP3bpOcppqWy",
                             StaffCode = "SD0006",
                             Type = 1,
                             Username = "tadesz"
@@ -471,7 +471,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2022, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Huson",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$XPevrOMZfMuXRqs843kTw.He9UBSu7q8Vj5JuaSI7lumVTw.VNHFa",
+                            PasswordHash = "$2a$11$tl1voexE4G6luCi.zz7wFOcuGMEuIxDuG9H7JgsdpkaNi0E1ISbkO",
                             StaffCode = "SD0007",
                             Type = 1,
                             Username = "vernorh"
@@ -489,7 +489,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2022, 1, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Yole",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$1nLh.XkAYVzVKcMljPalyeukHI5jPk3s9ydSf0iU.XrzosaYIzi12",
+                            PasswordHash = "$2a$11$02yewSMpdY3ncliExP2WmOxH1.8Aul5igpqtufS7YlI20a5bpOnDW",
                             StaffCode = "SD0008",
                             Type = 1,
                             Username = "rufey"
@@ -507,7 +507,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Woodyear",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$2ty47eQ7zLLOXpfGGqOGneovu.uMMx.eqgkvB5I3AEFIeXEr22s.G",
+                            PasswordHash = "$2a$11$6d4gGEsnkGLX0eTxre7He.baiVnkHQMd7hxAUmwhTjS54xbakSRAy",
                             StaffCode = "SD0009",
                             Type = 1,
                             Username = "ortonw"
@@ -525,7 +525,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Carmichael",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$2NgM/zEhFTKvq/OwfCuBDeT9JdcTOVXGWhHIydjczZN8xBFysca9m",
+                            PasswordHash = "$2a$11$u5ihAkpEc7O7h3s9vjgBs.G1KQhggz6hn2OmWGDcryk6WHejUKrmi",
                             StaffCode = "SD0010",
                             Type = 1,
                             Username = "peyterc"
@@ -543,7 +543,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Pitchers",
                             Location = "Hanoi",
-                            PasswordHash = "$2a$11$AbaffkkGFePPr3lv.AZF8.A2MnuelpPadbm2movcBXH4GuX1kYbIO",
+                            PasswordHash = "$2a$11$Vn/sanNjXFl2ODyLrWX9PuEWWfTmz6m4g.6c8MiK1Nf7y9yaqF5Xi",
                             StaffCode = "SD0011",
                             Type = 1,
                             Username = "kathyp"
@@ -561,7 +561,7 @@ namespace WebApi.Migrations
                             JoinDate = new DateTime(2021, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Lastname = "Thorndycraft",
                             Location = "Hochiminh",
-                            PasswordHash = "$2a$11$2n.nkLBTfj2LWdOdQSRqL.3Z28//vKU/r4HHFLZEcQC74P2GPnZR.",
+                            PasswordHash = "$2a$11$E/INVeGGBOmOcbG4gBx9KOo8pNAod5ny8KbQT0kmGCHZRM2hB6h0u",
                             StaffCode = "SD0012",
                             Type = 1,
                             Username = "beaut"
